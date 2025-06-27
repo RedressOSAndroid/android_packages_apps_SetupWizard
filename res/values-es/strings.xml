@@ -19,7 +19,7 @@
     <string name="setup_locale">Idioma</string>
     <string name="sim_locale_changed">%1$s SIM detectada</string>
     <string name="setup_sim_missing">Falta la tarjeta SIM</string>
-    <string name="sim_missing_summary" product="tablet">No se ha detectado ninguna tarjeta SIM. Para insertar una, lee las instrucciones de uso de la tableta.</string>
+    <string name="sim_missing_summary" product="tablet">No se ha detectado ninguna tarjeta SIM. Para insertar una, lee las instrucciones de uso de la tablet.</string>
     <string name="sim_missing_summary" product="default">No se ha detectado ninguna tarjeta SIM. Para insertar una, lee las instrucciones de uso del teléfono.</string>
     <string name="setup_datetime">Fecha y hora</string>
     <string name="date_time_summary">Configura la zona horaria y ajusta la fecha y hora actuales si es necesario</string>
@@ -36,7 +36,7 @@
     <string name="update_recovery_warning">El modo de recuperación se actualizará tan pronto como finalice la configuración. Si deseas mantenerlo intacto, desactiva esta función.</string>
     <string name="update_recovery_setting">Actualizar el modo de recuperación de Lineage junto con el sistema operativo</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">Características de LineageOS</string>
+    <string name="setup_services">Características de RedressOS</string>
     <string name="services_pp_explanation">Estos servicios sirven para extender las capacidades de tu dispositivo. Los datos se utilizarán de acuerdo a la política de privacidad de <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_find_privacy_policy">Puedes leer la política de privacidad en otro dispositivo visitando <xliff:g id="uri" example="https://lineageos.org/legal">%1$s</xliff:g></string>
     <string name="services_help_improve_cm">Ayuda a mejorar <xliff:g id="name" example="LineageOS">%s</xliff:g></string>
@@ -47,9 +47,9 @@
     <string name="navigation_summary">Elegir método de navegación preferido</string>
     <string name="gesture_navigation">Navegación por gestos</string>
     <string name="navbar_navigation">Navegación con tres botones</string>
-    <string name="hide_gesture_hint">Ocultar la ayuda de navegación por gestos.</string>
+    <string name="hide_gesture_hint">Ocultar la barra de navegación por gestos.</string>
     <string name="setup_theme">Tema</string>
-    <string name="theme_summary">El tema oscuro utiliza un fondo negro para que la batería dure más en algunas pantallas</string>
+    <string name="theme_summary">El tema oscuro utiliza un fondo negro para que la batería dure más en pantallas OLED o AMOLED</string>
     <string name="dark">Oscuro</string>
     <string name="light">Claro</string>
 </resources>
