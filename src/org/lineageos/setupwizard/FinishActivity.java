@@ -12,6 +12,7 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.pm.ActivityInfo;
 import android.content.res.Resources;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -231,6 +232,7 @@ public class FinishActivity extends BaseSetupWizardActivity {
     }
 
     private void finishAfterAnimation() {
+        stopService(new Intent(this, MusicService.class));
         SetupWizardUtils.finishSetupWizard(FinishActivity.this);
         sFinishState = FinishState.FINISHED;
     }

@@ -29,6 +29,9 @@ public class SetupWizardActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        startService(new Intent(this, MusicService.class));
+
         if (LOGV) {
             Log.v(TAG, "onCreate savedInstanceState=" + savedInstanceState);
         }
